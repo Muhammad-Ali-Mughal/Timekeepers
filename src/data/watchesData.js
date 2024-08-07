@@ -1,0 +1,111 @@
+import watch1 from "../assets/watch1.png";
+import watch2 from "../assets/watch2.png";
+import watch3 from "../assets/watch3.png";
+import watch4 from "../assets/watch4.png";
+import watch5 from "../assets/watch5.png";
+import watch6 from "../assets/watch6.png";
+import watch7 from "../assets/watch7.png";
+import watch8 from "../assets/watch8.png";
+import watch9 from "../assets/watch9.png";
+
+export const watchData = [
+  {
+    id: 1,
+    name: "Classic Silver Watch",
+    price: 199.99,
+    description: "A timeless classic silver watch with a sleek design.",
+    imageUrl: watch1,
+    brand: "Timeless",
+    category: "Classic",
+    stock: 50,
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    name: "Luxury Gold Watch",
+    price: 499.99,
+    description: "A luxurious gold watch with intricate detailing.",
+    imageUrl: watch2,
+    brand: "Prestige",
+    category: "Luxury",
+    stock: 20,
+    rating: 4.8,
+  },
+  {
+    id: 3,
+    name: "Sporty Black Watch",
+    price: 129.99,
+    description: "A sporty black watch perfect for an active lifestyle.",
+    imageUrl: watch3,
+    brand: "ActiveGear",
+    category: "Sport",
+    stock: 100,
+    rating: 4.2,
+  },
+  {
+    id: 4,
+    name: "Elegant Rose Gold Watch",
+    price: 299.99,
+    description: "An elegant rose gold watch with a modern design.",
+    imageUrl: watch4,
+    brand: "Elegance",
+    category: "Elegant",
+    stock: 30,
+    rating: 4.7,
+  },
+  {
+    id: 5,
+    name: "Minimalist White Watch",
+    price: 89.99,
+    description: "A minimalist white watch with a clean and simple look.",
+    imageUrl: watch5,
+    brand: "Simplicity",
+    category: "Minimalist",
+    stock: 80,
+    rating: 4.0,
+  },
+  {
+    id: 6,
+    name: "Digital Smart Watch",
+    price: 159.99,
+    description: "A digital smart watch with multiple functionalities.",
+    imageUrl: watch6,
+    brand: "TechSavvy",
+    category: "Smart",
+    stock: 60,
+    rating: 4.6,
+  },
+  {
+    id: 7,
+    name: "Vintage Leather Watch",
+    price: 249.99,
+    description: "A vintage leather watch with a classic appeal.",
+    imageUrl: watch7,
+    brand: "Vintage",
+    category: "Vintage",
+    stock: 40,
+    rating: 4.3,
+  },
+  {
+    id: 8,
+    name: "Modern Blue Watch",
+    price: 179.99,
+    description: "A modern blue watch with a unique design.",
+    imageUrl: watch8,
+    brand: "Modernist",
+    category: "Modern",
+    stock: 70,
+    rating: 4.4,
+  },
+  {
+    id: 9,
+    name: "Stylish Green Watch",
+    price: 120.99,
+    description: "A stylish green watch with an eco-friendly design.",
+    imageUrl: watch9,
+    brand: "EcoTime",
+    category: "Stylish",
+    stock: 50,
+    rating: 4.5,
+  },
+];
